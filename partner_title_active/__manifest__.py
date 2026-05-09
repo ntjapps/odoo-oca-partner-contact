@@ -2,6 +2,7 @@
 # Copyright 2026 NTJ (https://www.ntj.co.id)
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
 
+# v19-incompat: Removed in v19: model res.partner.title no longer exists.
 {
     "name": "Partner Title Active",
     "version": "19.0.1.0.0",
@@ -16,5 +17,5 @@
     "data": [
         "views/res_partner_title.xml",
     ],
-    "installable": True,
+    "installable": False,
 }

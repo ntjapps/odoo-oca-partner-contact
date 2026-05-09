@@ -1,6 +1,7 @@
 # Copyright 2020 Camptocamp SA
 # Copyright 2026 NTJ (https://www.ntj.co.id)
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl.html).
+# v19-incompat: Removed in v19: model res.partner.title no longer exists.
 {
     "name": "Partner title order",
     "summary": "Makes partner title sortable by sequence",
@@ -15,5 +16,5 @@
     "data": [
         "views/res_partner_title_views.xml",
     ],
-    "installable": True,
+    "installable": False,
 }

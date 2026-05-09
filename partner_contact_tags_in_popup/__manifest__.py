@@ -3,6 +3,7 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
+# v19-incompat: Removed in v19: parent partner form no longer has the mobile field anchor.
 {
     "name": "Partner Contact Tags in Contacts & Addresses Pop-up",
     "summary": "Display a contact's tags in the 'Contacts & Addresses' "
@@ -18,5 +19,5 @@
     ],
     "data": [
         "views/res_partner_views.xml",
-    ],
+    ],    "installable": False,
 }

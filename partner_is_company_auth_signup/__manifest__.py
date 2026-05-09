@@ -2,6 +2,7 @@
 # Copyright 2026 NTJ (https://www.ntj.co.id)
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
 
+# v19-incompat: v19 auth_signup template inheritance changed; signup field-name xpath no longer composes.
 {
     "name": "Partner Is Company - Auth Signup",
     "summary": "Asks users who register whether they are individuals or companies",
@@ -12,5 +13,5 @@
     "category": "Extra Tools",
     "website": "https://github.com/OCA/partner-contact",
     "depends": ["auth_signup"],
-    "data": ["views/auth_signup_login_templates.xml"],
+    "data": ["views/auth_signup_login_templates.xml"],    "installable": False,
 }
