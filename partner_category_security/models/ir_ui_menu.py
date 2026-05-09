@@ -7,7 +7,7 @@ class IrUiMenu(models.Model):
     _inherit = "ir.ui.menu"
 
     @api.model
-    @tools.ormcache("frozenset(self.env.user.groups_id.ids)", "debug")
+    @tools.ormcache("frozenset(self.env.user._get_group_ids())", "debug")
     def _visible_menu_ids(self, debug=False):
         """It is not possible to set !groups in menu items, we do not return the record
         if the user has base.group_system (to avoid the 'duplicate' menu)."""
