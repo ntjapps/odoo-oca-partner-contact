@@ -48,7 +48,7 @@
                 <field name="name" />
                 <field name="country_id" />
                 <field name="state_id" />
-                <group expand="0" string="Group By">
+                <group string="Group By">
                     <filter
                         name="country"
                         string="Country"
